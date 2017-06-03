@@ -2,7 +2,7 @@ version: '2'
 
 services:
   demoapi:
-    image: demoapi
+    image: rtodosic/demoapi
     build:
       context: ./DemoApi
       dockerfile: Dockerfile
